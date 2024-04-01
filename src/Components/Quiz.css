@@ -6,3 +6,88 @@
   background: #ffebeb !important;
   border-color: #ff4a4a !important;
 }
+
+.flex {
+  display: flex;
+}
+
+.con {
+  flex-direction: column;
+}
+
+@media (min-width: 640px) {
+  .flex {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .con {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.bg-gradient-to-r {
+  background: linear-gradient(to right, #8b5cf6, #f6416c);
+}
+
+.bg-slate-100 {
+  background-color: #f8f9fa;
+}
+
+.text-slate-700 {
+  color: #343a40;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.index {
+  font-size: 1.25rem;
+}
+
+.steps {
+  flex-wrap: wrap;
+}
+
+.steps button {
+  flex: 0 0 auto;
+  width: 10%;
+  max-width: 10%;
+}
+
+@media (max-width: 768px) {
+  .steps button {
+    width: 20%;
+    max-width: 20%;
+  }
+}
+
+.buttons {
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  flex: 0 0 auto;
+  width: 48%;
+  max-width: 48%;
+}
+
+@media (max-width: 768px) {
+  .buttons button {
+    width: 100%;
+    max-width: 100%;
+    margin: 0.5rem 0;
+  }
+}
