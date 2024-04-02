@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import './Quiz.css';
 
 const Quiz = () => {
   const [index, setIndex] = useState(0);
