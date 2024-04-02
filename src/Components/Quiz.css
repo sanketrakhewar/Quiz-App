@@ -1,11 +1,11 @@
-.con .correct {
+/* .con .correct {
   background: #dffff2 !important;
   border-color: #00d397 !important;
 }
 .con .incorrect {
   background: #ffebeb !important;
   border-color: #ff4a4a !important;
-}
+} */
 
 .flex {
   display: flex;
@@ -29,7 +29,7 @@
   }
 }
 
-.bg-gradient-to-r {
+/* .bg-gradient-to-r {
   background: linear-gradient(to right, #8b5cf6, #f6416c);
 }
 
@@ -39,7 +39,7 @@
 
 .text-slate-700 {
   color: #343a40;
-}
+} */
 
 .text-center {
   text-align: center;
