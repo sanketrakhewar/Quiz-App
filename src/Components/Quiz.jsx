@@ -14,7 +14,7 @@ const Quiz = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://quiz1-api.cyclic.app/");
+        const response = await axios.get("https://quiz-api2.onrender.com/api/quiz");
         const shuffledData = shuffleArray(response.data);
         setData(shuffledData);
         setQuestion(shuffledData[0]); // Set the first question initially
